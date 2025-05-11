@@ -91,3 +91,17 @@ nav a {
     padding-right: 200px;
     margin-right: 100px;
 }
+/* ABOUT SECTION EDITING */
+.about-section{
+    margin: 50px  auto ;
+    padding: 200px 200px ;
+    width: 1140px;
+    height: 350px;
+    background-color: #FFF8F3;
+    text-align: center;
+    align-items: center;
+}
+.about-info{
+    display: flex;
+    justify-content:  space-around;
+}
