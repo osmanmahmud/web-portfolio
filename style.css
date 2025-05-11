@@ -8,14 +8,15 @@ body {
 }
 
 /* Navigation Top listed item */
-header{
+header {
     background-color: #FFF8F3;
     background-image: url(images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
-    
+
 
 }
+
 .mary-text {
     color: #FD6E0A;
 }
@@ -25,24 +26,27 @@ header{
     font-size: 65px;
     font-weight: 800;
     margin: 0px 200px 0 50px;
-    
+
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     padding: 50px 50px 0px 50px;
-    
+
 }
-.nav-list{
+
+.nav-list {
     display: flex;
     gap: 50px;
-    margin: 0 50px 0 0 ;
+    margin: 0 50px 0 0;
 }
-#portfolio{
+
+#portfolio {
     margin-top: 25px;
 }
-#blog{
+
+#blog {
     margin-top: 25px;
 }
 
@@ -69,39 +73,146 @@ nav a {
     font-weight: 700;
 
 }
+
 /**** Banner image section *****/
 
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
     padding: 20px 10px 0 10px;
     margin-top: 100px;
     align-items: center;
 }
-.banner-img{
+
+.banner-img {
     width: 500px;
     height: 650px;
     padding-top: 200px;
 }
-.developer-img{
+
+.developer-img {
     padding: 0 0px 50px 0;
-    
+
 }
-.banner-content{
+
+.banner-content {
     padding-right: 200px;
     margin-right: 100px;
 }
+
 /* ABOUT SECTION EDITING */
-.about-section{
-    margin: 50px  auto ;
-    padding: 200px 200px ;
+.about-section {
+    margin: 50px auto;
+    padding: 200px 200px;
     width: 1140px;
     height: 350px;
     background-color: #FFF8F3;
     text-align: center;
     align-items: center;
 }
-.about-info{
+
+.about-info {
     display: flex;
-    justify-content:  space-around;
+    justify-content: space-around;
+}
+
+/* What i do Senction */
+
+.What-i-do-section {
+    
+    margin: 0 auto;
+    width: 1140px;
+    height: 350px;
+}
+
+.What-i-do-info {
+    text-align: center;
+}
+
+.skill-item {
+    display: flex;
+    padding-top: 50px;
+
+}
+
+.Vanila-JS {
+    box-shadow: 0px 0px 10px;
+    margin: 0 20px;
+    padding: 10px 15px;
+}
+
+.React {
+    box-shadow: 0px 0px 10px;
+    margin: 0 20px;
+    padding: 10px 15px;
+    
+}
+
+.nodeJs {
+    box-shadow: 0px 0px 10px;
+    margin: 0 20px;
+    padding: 10px 15px;
+}
+
+.mongoDB {
+    box-shadow: 0px 0px 10px;
+    margin: 0 20px;
+    padding: 10px 15px;
+}
+/*-------------- A SUMMARY OF MY RESUME ---------------*/
+
+.resume-section{
+    padding-top: 250px;
+}
+.section-title {
+    text-align: center;
+    
+}
+.resume-list{
+    display: flex;
+    margin: 10px 20px 20px 20px;
+    padding: 40px 100px;
+}
+.education-sector{
+    
+    margin-right: 10px;
+    padding: 0 20px;
+    box-shadow: 0 0 10px;
+}
+.Exprience-sector{
+    margin-left: 10px;
+    padding: 0 20px;
+    box-shadow: 0 0 10px;
+}
+
+/* Footer SECTION */
+
+Footer{
+    background-color:#FFF8F3 ;
+    padding: 230px 130px;
+    margin-top: 100px;
+
+}
+.footer-item{
+    display:flex;
+
+}
+.social-link{
+    padding-right: 250px;
+}
+input,textarea{
+    padding: 0px 250px 20px 0 ;
+    display: block;
+    margin-bottom: 10px;
+}
+textarea{
+    padding: 0 500px 200px 0;
+}
+.Submit-button{
+    padding: 15px 20px ;
+    background-color: #FD6E0A;
+    border: 0;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
 }
